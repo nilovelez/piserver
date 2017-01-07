@@ -4,8 +4,11 @@
   "description": "Multi-Purpose utility server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "master": "node index.js master"
+  }
+,
   "repository": {
     "type": "git",
     "url": "git@github.com:nilovelez/piserver.git"
@@ -14,5 +17,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nilovelez/piserver/issues"
+  },
+  "dependencies": {
+    "express": "~4.14.0"
   }
 }
