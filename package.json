@@ -6,9 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "master": "node index.js master"
-  }
-,
+    "master": "node master.js"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:nilovelez/piserver.git"
@@ -19,6 +18,9 @@
     "url": "https://github.com/nilovelez/piserver/issues"
   },
   "dependencies": {
-    "express": "~4.14.0"
+    "express": "~4.14.0",
+    "imagemin": "~5.2.2",
+    "imagemin-pngquant": "~5.0.0",
+    "imagemin-mozjpeg": "~6.0.0"
   }
 }
