@@ -41,3 +41,5 @@ jspm_packages
 # Nilo:
 # piserver temporary dir
 temp/*
+master/data/*
+slave/data/*

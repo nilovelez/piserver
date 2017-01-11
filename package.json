@@ -2,10 +2,10 @@
   "name": "piserver",
   "version": "0.0.1",
   "description": "Multi-Purpose utility server",
-  "main": "index.js",
+  "main": "slave.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
+    "start": "node slave.js",
     "master": "node master.js"
   },
   "repository": {

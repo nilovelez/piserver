@@ -1,0 +1,10 @@
+{
+  "name" : "pislave",
+  "script" : "slave.js",
+  //"cwd" : "~/piserver",
+  "watch": ["slave","slave.js"],
+  "ignore_watch" : ["node_modules", "slave/data"],
+  "watch_options": {
+    "followSymlinks": false
+  }  
+}

@@ -1,0 +1,10 @@
+{
+  "name" : "pimaster",
+  "script" : "master.js",
+  //"cwd" : "~/pimaster",
+  "watch": ["master","master.js"],
+  "ignore_watch" : ["node_modules", "master/data"],
+  "watch_options": {
+    "followSymlinks": false
+  }  
+}
