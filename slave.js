@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
 var ddns = require('./slave/ddns')
 ddns.start(); 
 
-//var twitter = require('./slave/twitter')
+var twitter = require('./slave/twitter')
 
 //var imagemin = require('./slave/imagemin')
 //app.use('/imagemin',imagemin);
