@@ -42,4 +42,9 @@ jspm_packages
 # piserver temporary dir
 temp/*
 master/data/*
+master/config.js
+
 slave/data/*
+slave/config.js
+
+
