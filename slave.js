@@ -5,7 +5,7 @@ var config = require('./slave/config')
 
 app.get('/', function (req, res) {
   //res.send('Hello World!')
-  res.send('I am slave. Master server at: ' + config.master)
+  res.send('I am slave. Master server at: ' + config.master.host + ':' + config.master.port)
 })
 
 var ddns = require('./slave/ddns')
