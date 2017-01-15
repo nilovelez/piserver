@@ -1,3 +1,4 @@
+var app = require('../slave');
 var config = require('./config');
 var http = require('http');
 
@@ -10,7 +11,7 @@ var update = function(){
     var options = {
       host: config.master.host,
       port: config.master.port,
-      path: '/ping/?ip=' + add 
+      path: '/ping/?ip=' + add + '&name=' + config.name 
     };
 
     http.get(options, (res) => {

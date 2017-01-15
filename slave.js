@@ -1,5 +1,5 @@
 var express = require('express')
-var app = express()
+var app = module.exports = express()
 
 var config = require('./slave/config')
 
@@ -11,9 +11,10 @@ app.get('/', function (req, res) {
 var ddns = require('./slave/ddns')
 ddns.start(); 
 
+//var twitter = require('./slave/twitter')
 
-var imagemin = require('./slave/imagemin')
-app.use('/imagemin',imagemin);
+//var imagemin = require('./slave/imagemin')
+//app.use('/imagemin',imagemin);
 
 
 app.listen(8080, function () {
