@@ -1,7 +1,11 @@
 var app = require('../slave');
 var config = require('./config');
+var fs = require('fs');
 var path = require('path');
 var Twit = require('twit');
+
+
+
 
 // nilo node /var/www/elefanbot/index.js
 
@@ -48,7 +52,6 @@ var twittea = function(){
 	  
 	});
 }
-
 exports.twittea = twittea;
 
 //twittea();
